@@ -1,0 +1,92 @@
+/* Colores personalizados */
+.bg-dark {
+  background-color: #3f1a2b !important;
+}
+
+.text-danger {
+  color: #b2183a !important;
+}
+
+.btn-danger {
+  background-color: #b2183a;
+  border-color: #b2183a;
+}
+
+.btn-danger:hover {
+  background-color: #ed4a69;
+  border-color: #ed4a69;
+}
+
+.bg-light {
+  background-color: #fbf8fb;
+}
+
+.bg-faded {
+  background-color: #fbb3cc;
+}
+
+.text-dark {
+  color: #3f1a2b;
+}
+
+/* Fondo del encabezado */
+header {
+  background-color: #3f1a2b;
+  color: #fbf8fb;
+}
+
+/* Espaciado superior para que no se superponga con el contenido */
+header {
+  margin-top: 80px; /* Ajusta según el tamaño de la barra de navegación */
+}
+
+footer {
+  background-color: #3f1a2b;
+  color: white;
+}
+
+/* Estilo de la imagen */
+#sobre-mi img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+/* Fondo y padding para que la imagen se vea bien en diferentes tamaños */
+#sobre-mi {
+  padding: 60px 0;
+}
+
+/* Ajustes en el texto */
+#sobre-mi p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Estilo de las cards */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  &:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #fbb3cc;
+  }
+}
+
+/* Ajustes adicionales */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fbf8fb !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ed4a69 !important;
+}
+
+#agenda{
+  background-color: #fbb3cc;
+  padding-top: 60px;
+  height:500px;
+}
+
